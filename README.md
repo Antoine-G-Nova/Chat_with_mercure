@@ -1,6 +1,9 @@
 # Chat_with_Mercure
 Instant chat app using Mercure Vue.js and Symfony
 
+## Screenshot
+![capture_v1.0.0](Screeshot/Capture_V1.0.0.png)
+
 ## Install
 ⚠️ (Change 'localhost' by the name of your local vhost)
 1) `composer install`
