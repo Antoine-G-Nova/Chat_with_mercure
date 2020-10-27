@@ -38,7 +38,7 @@ class ChatController extends AbstractController
         $users = $serializer->serialize($users, 'json');
         $users = json_decode($users, true);
         $connectedUser = $this->getUser();
-        $users = array_filter($users, function($user) use($connectedUser){
+        $users = array_filter($users, function ($user) use ($connectedUser) {
             return $user['id'] != $connectedUser->getId();
         });
         $users = array_values($users);

@@ -6,11 +6,11 @@
  */
 
 // any CSS you import will output into a single css file (app.css in this case)
-import '../css/app.css';
-import Vue from 'vue';
-import chat from './components/TheChat';
+import "../css/app.css";
+import Vue from "vue";
+import chat from "./components/TheChat";
 
 new Vue({
-    el: '#app',
-    components: {chat}
+    el: "#app",
+    components: { chat },
 });
